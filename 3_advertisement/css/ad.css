@@ -1,0 +1,44 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.frame{
+	width: 5px;
+	height: 5px;
+	background: url("../images/books.jpeg") no-repeat center fixed;
+}
+
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+}
+
+.title{
+	font-family: 'Roboto';
+	font-size: 50px;
+	font-style: italic;
+	width: bold;
+}
+
+.link{
+	font-family: 'Roboto';
+	font-size: 20px;
+	text-align: center;
+	color: #88889;
+	letter-spacing: 0.1px;
+	margin-top: 70px;
+	width: 320px;
+	line-height: 24px;
+	padding: 10px 0 10px 0;
+
+}
+.link:hover{
+	color: white;
+	transition: 0.4s;
+}
